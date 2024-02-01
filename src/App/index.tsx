@@ -10,7 +10,7 @@ const App = () => {
 
     return (
         <div className="page">
-            <h1><a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">Intersection Observer API</a> example<br /> <a href="https://github.com/bryzgalov1/intersection-observer-api-example">GitHub</a></h1>
+            <h1><a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target='_blank' rel="noreferrer">Intersection Observer API</a> example<br /> <a href="https://github.com/bryzgalov1/intersection-observer-api-example" target='_blank' rel="noreferrer">GitHub</a></h1>
 
             <div className='section'>
                 <div className='section__body'>
