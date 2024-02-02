@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/intersection-observer-api-example/static/css/main.5c668434.css",
-    "main.js": "/intersection-observer-api-example/static/js/main.e210ffb5.js",
+    "main.js": "/intersection-observer-api-example/static/js/main.cd4641c1.js",
     "index.html": "/intersection-observer-api-example/index.html",
     "main.5c668434.css.map": "/intersection-observer-api-example/static/css/main.5c668434.css.map",
-    "main.e210ffb5.js.map": "/intersection-observer-api-example/static/js/main.e210ffb5.js.map"
+    "main.cd4641c1.js.map": "/intersection-observer-api-example/static/js/main.cd4641c1.js.map"
   },
   "entrypoints": [
     "static/css/main.5c668434.css",
-    "static/js/main.e210ffb5.js"
+    "static/js/main.cd4641c1.js"
   ]
 }

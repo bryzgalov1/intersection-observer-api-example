@@ -1,12 +1,13 @@
 import React, { FC, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
 
-const threshold = (() => {
-    const data = [];
-    for (let i = 0; i <= 1.0; i += 0.01) {
-        data.push(i);
-    }
-    return data;
-})();
+const count = 200;
+
+const step = 1.0 / count;
+
+const threshold = Array.from({ length: count + 1 }, (_, index) => {
+    const num = +(index * step).toFixed(4);
+    return num;
+});
 
 type TProps = {
     wrapRef: React.RefObject<HTMLDivElement | null>;
